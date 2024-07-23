@@ -1,0 +1,597 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+}
+
+body{
+    width: 100;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+   
+}
+
+nav .logo {
+    color: white;
+    position: relative;
+    top: 0;
+    transition: top ease 0.2s;
+    cursor: pointer;
+    
+}
+
+nav .logo:hover{
+    top: -5px;
+    filter: brightness(150%);
+}
+
+nav .menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: red;
+    border: 1px solid red;
+    text-align: center;
+}
+
+nav .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+   
+}
+
+nav .nav-links li:hover{
+    top: -5px;
+}
+
+nav .nav-links li {
+    margin: 0 7px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.2s;
+    cursor: pointer;
+}
+
+nav .nav-links a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition:  0.3s;
+}
+
+nav .nav-links a:hover {
+    color:red;
+    
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+
+
+
+.hero{
+    
+    height: auto;
+    margin
+    
+}
+
+.hero img{
+    height: 69vh;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+.containera{
+    /* border: 2px solid black; */
+    margin-top: 3vh;
+    padding: 2vh 20vh;
+    
+
+}
+
+
+.containera .aa{
+    margin-bottom: 1.5vh;
+    color: red;
+}
+
+.containera .aaa{
+    color: green;
+    position: relative;
+    top:0 ;
+    transition: top ease-in-out 0.3s;
+
+}
+.containera .aaa:hover{
+    top: -10px;
+}
+
+
+
+.containera .bb{
+    margin-top: 2vh;
+}
+
+
+
+
+.containerb{
+    width:auto;
+}
+
+.containerb img{
+    padding: 4vh;
+    width: 65vh;
+    height:55vh ;
+    border-radius: 10px;
+}
+
+
+.containeraa{
+    margin-top:4vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containera .containerc:hover{
+    top: -10px;
+    animation: glow 2s;
+    
+}
+
+.containera .containerc{
+    position: relative;
+    top:0 ;
+    transition: top ease-in-out 0.3s;
+}
+
+.containeraa .containerc .cc li{
+    list-style: none;
+
+    line-height: 7vh;
+}
+
+.fa-solid{
+    color: gold;
+    margin-right: 2vh;
+}
+
+
+
+
+.containeraa .containerd .dd li{
+    list-style: none;
+    line-height: 7vh;
+
+}
+
+
+.containeraa .containerd {
+    position: relative;
+    top:0 ;
+    transition: top ease-in-out 0.3s;
+
+}
+.containeraa .containerd:hover{
+    top: -10px;
+}
+
+
+.packages{
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.packages p{
+    color: red;
+    margin-bottom: 1.5vh;
+}
+
+.packages  h1{
+    color: green;
+    margin-bottom: 3vh;
+}
+
+.plan{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin-bottom: 4vh;
+    margin-left: 5vh;
+    
+}
+
+.plan .plans {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    cursor: pointer;
+    border: 0.2px solid grey;
+    border-radius: 5px;
+    padding: 20px 50px;
+    margin-right: 10vh;
+
+}
+
+.plan .plans:hover{
+    top: -15px;
+    filter: brightness(150%);
+}
+
+.plan .plans h3{
+font-weight: bolder;
+margin-bottom: 1vh;
+color: red;
+}
+
+.plan .plans p{
+    margin-bottom: 1vh;
+    color: green;
+}
+
+.menu{
+    margin-top: 4vh;
+    text-align: center;
+}
+
+.menu p{
+    color: red;
+    margin-bottom: 1.5vh;
+
+}
+.menu h2{
+    color: green;
+}
+
+
+.bu{
+    margin: 5vh;
+    text-align: center;
+
+
+}
+.bu button{
+    height: 6vh;
+    width: 18vh;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    transition: top ease 0.3s ;
+    
+
+}
+
+.bu button:hover{
+ top: -10px;
+ filter: brightness(150%);
+}
+
+.bu .bua{
+    background-color: yellow;
+    border-radius: 5px;
+    margin-right: 15px;
+    
+}
+
+.bu .bub{
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+
+.bu .fa-solid{
+    color: red;
+}
+
+
+
+
+.ranjan{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin-bottom: 3vh;
+}
+
+
+
+
+
+.za{
+    height: auto;
+    width: 60vh;
+    padding: 2px 2px;
+    border-bottom: dotted 2px;
+    border-color: orange;
+}
+
+.zb{
+    height: auto;
+    width: 60vh;
+    padding: 2px 2px;
+    border-bottom: dotted 2px;
+    border-color: orange;
+
+}
+
+.za .aa{
+    display: flex;
+    
+}
+
+.zb .aa{
+display: flex;
+
+}
+
+.za .aa img{
+    height: 10vh;
+    margin-right: 1vh;
+    margin-bottom: 1vh;
+}
+
+.zb .aa img{
+    height: 10vh;
+    margin-right: 1vh;
+    margin-bottom: 1vh;
+
+}
+.za .p{
+    margin-left: 1vh;
+    font-size: 13px;
+    margin-bottom: 1vh;
+}
+.zb .p {
+    margin-left: 1vh;
+    font-size: 13px;
+    margin-bottom: 2vh;
+
+}
+
+.abc{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+
+.testa{
+    height: 30vh;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.testa h2{
+    color:red ;
+    padding-top: 5px;
+}
+
+.testa h1{
+    color: green;
+    margin-top: 1.5vh;
+}
+
+.testa p{
+    text-align: center;
+    height: 5vh;
+    width: 40vh;
+    margin-left: 40.5%;
+    margin-top: 2vh;
+    color:#b30000;
+    font-size: 15px;
+}
+
+.content{
+    margin-top: 2vh;
+    height: auto;
+    width: 100%;
+}
+
+.content img{
+    height: auto;
+    width: 100%;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: red;
+   height: 40vh;
+   color: white;
+}
+
+.foot .foota{
+    margin-right: 3vh;
+
+}
+
+.foot .foota img{
+    height: 18vh;
+    margin-bottom: 2vh;
+}
+
+.foot .foota p a{
+    margin-top: 1vh;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.foot .foota .fa-solid{
+    color: white;
+    margin: 1vh;
+}
+
+.foot .footb h3{
+    margin-bottom: 2vh;
+   
+}
+
+
+.foot .footb ul li{
+    font-weight: bolder;
+    list-style: none;
+    margin: 1.5vh;
+}
+
+.foot .footc h2{
+margin-bottom: 1.5vh;
+}
+
+.foot .footc .hh{
+    margin-left: 9.5vh;
+}
+.foot .footc h4{
+    margin: 1.5vh;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    border-top: 1px solid white;
+    height: 20vh;
+    color: white;
+
+}
+
+.footer .footera{
+    text-align: center;
+    margin-left: 5rem;
+}
+
+.footer .footera ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5vh;
+    height: 10px;
+
+}
+
+.footer .footera li {
+    list-style: none;
+    
+
+}
+
+.footer .footera .fa-brands{
+    background-color: white;
+    color: gold;
+    width: 35px;
+    margin-top: 2px;
+    font-size: 30px;
+    margin-right: 7px;
+    border-radius: 5px;
+    
+
+}
+
+.footer .footerb{
+    margin-right: 5rem;
+
+}
+.footer .footerb h3 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+ 
+
+
+
+@media (max-width: 768px) {
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav .logo{
+        padding: 5px;
+    }
+
+    nav .menu-icon {
+        display: block;
+        
+    }
+
+    nav .nav-links li:hover{
+        border-bottom: 2px solid red;
+        transition: 0.3s ease-out;
+    }
+
+    nav .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+   
+
+    nav .nav-links li {
+        margin: 10px 40vh;
+    }
+
+    nav .nav-links.active {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        padding: 5px;
+    }
+
+    .container .containera{
+        display: none;
+    }
+
+    .containerb img{
+        width: 735px;
+    }
+    .ranjan .za{
+        margin-right: 2vh;
+    }
+
+    .testa p{
+        margin-left: 32%;
+    }
+}
